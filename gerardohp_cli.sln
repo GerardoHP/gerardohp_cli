@@ -5,13 +5,13 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{3F3AB6DE-776F-4AF8-9F0D-3BF1CE50966A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gerardohp_cli", "src\gerardohp_cli\gerardohp_cli.csproj", "{D0685817-942B-4D5F-809E-945FBEE9BCAD}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "gerardohp", "src\gerardohp\gerardohp.csproj", "{D0685817-942B-4D5F-809E-945FBEE9BCAD}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "business", "src\business\business.csproj", "{4B845550-981F-428D-8693-A7D0C8194336}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business", "src\Business\Business.csproj", "{4B845550-981F-428D-8693-A7D0C8194336}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{0C17AC2D-CDA3-4F26-A569-4B3DC2185DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "business.test", "test\business.test\business.test.csproj", "{2B73C104-2D78-416C-87DE-33B7D266EF7B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Business.Test", "test\Business.Test\Business.Test.csproj", "{2B73C104-2D78-416C-87DE-33B7D266EF7B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
