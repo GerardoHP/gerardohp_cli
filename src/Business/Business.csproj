@@ -33,5 +33,11 @@
 
   </ItemGroup>
 
+  <ItemGroup>
+    <None Update="logo">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
 
 </Project>
