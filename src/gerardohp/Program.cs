@@ -10,7 +10,7 @@ using System.CommandLine;
 var services = new ServiceCollection();
 ConfigureServices(services);
 
-await using var serviceProvider = services.BuildServiceProvider();
+using var serviceProvider = services.BuildServiceProvider();
 var task = serviceProvider?.GetService<ReadCommand>() ?? throw new ArgumentNullException(nameof(serviceProvider));
 await task.InvokeAsync(args);
 
